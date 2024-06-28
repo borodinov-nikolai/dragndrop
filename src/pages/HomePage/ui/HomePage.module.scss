@@ -1,0 +1,22 @@
+
+
+
+
+.field {
+    width: 100vw;
+    height: 100vh;
+    background: green;
+    position: relative;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    cursor: pointer;
+}
